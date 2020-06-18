@@ -20,8 +20,6 @@ pipeline {
                 error "Pipeline Aborted: ${qg.status}"
                 }
             }
-            sh "mvn.clean install"
-                echo 'Testing..'
             }
         }
      }
